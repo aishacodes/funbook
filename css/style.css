@@ -1,0 +1,254 @@
+body {
+    font-family: Helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #44619D;
+    padding: 1rem 0 .5rem;
+}
+
+a.brand-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.login form {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.login input {
+    width: 8rem;
+}
+
+nav .form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 .5rem;
+    height: 60px;
+}
+
+nav .form-control a {
+    padding: 1rem;
+    color: #9cb4d8;
+    text-decoration: none;
+}
+
+nav .form-control a:hover {
+    text-decoration: underline;
+}
+
+.loginbtn {
+    color: white;
+    padding: .3rem;
+    background-color: #4267B2;
+}
+
+section {
+    background: linear-gradient(to bottom, #FEFEFE 24%, #E5E8F1 60%, #D7DBEA);
+    flex-grow: 1;
+    padding: 2rem 0;
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.429rem;
+    margin-right: 5rem;
+}
+
+.connect span {
+    color: #0e385f;
+    font-size: 1.429;
+    font-weight: 700;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup h1 {
+    font-size: 2.2rem;
+    color: #333333;
+}
+
+.signup p.header {
+    color: #1d2129;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="password"] {
+    height: 2.1rem;
+    margin-bottom: .8rem;
+    border: 1px solid #bdc7d8;
+    outline: none;
+    border-radius: 5px;
+    color: #bdc7d8;
+    font-size: 1.2rem;
+    padding-left: .5rem;
+}
+
+.signup-form .fc {
+    width: 46.5%;
+}
+
+.signup-form input:first-child {
+    margin-right: 1rem;
+}
+
+.signup-form select {
+    padding: .3rem .5rem;
+}
+
+.signup-form img {
+    margin-left: .5rem;
+}
+
+.signup-form .form-control {
+    width: 100%;
+}
+
+.signup-form p {
+    color: #90949c;
+    font-weight: 700;
+    font-size: 1.14rem;
+    padding: .8rem 0;
+}
+
+.signup-form span.note {
+    font-size: 0.7rem;
+    color: #737373;
+    margin-top: 1.2rem;
+    line-height: 16px;
+}
+
+.signup-form input[type="radio"] {
+    margin: 0 0 .65rem;
+}
+
+.signup-form span.note a {
+    text-decoration: none;
+    color: #385898;
+}
+
+.signup-form span.note a:hover {
+    text-decoration: underline;
+}
+
+form span {
+    padding-left: .3rem;
+    font-size: 1rem;
+}
+
+.signup-form button {
+    background: linear-gradient(#67AE55, #578843);
+    background-color: #69a74e;
+    color: #fff;
+    width: 180px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: .58rem 2rem;
+    margin: 1rem 0;
+    border: .5px #3B6E22 #3B6E22 #2C5115 solid;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px #A4E388;
+    outline: none;
+}
+
+.signup .button:hover {
+    background: linear-gradient(#67A558, #456B36);
+}
+
+.signup span.createpage a {
+    text-decoration: none;
+    color: #385898;
+}
+
+.signup span.createpage a:hover {
+    text-decoration: underline;
+}
+
+.signup span.createpage {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #666666;
+}
+
+footer .lang {
+    border-bottom: 1px solid #dddfe2;
+    padding-bottom: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #737373;
+    font-size: 0.75rem;
+    margin: 4rem 0 2rem;
+}
+
+footer .lang a {
+    padding: .4rem;
+    text-decoration: none;
+    color: #385898;
+}
+
+footer .lang a:hover {
+    text-decoration: underline;
+}
+
+p.bottom-links {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 2rem;
+    flex-wrap: wrap;
+}
+
+p.bottom-links a {
+    text-decoration: none;
+    padding: .2rem .4rem;
+    color: #385898;
+}
+
+p.bottom-links a:hover {
+    text-decoration: underline;
+}
