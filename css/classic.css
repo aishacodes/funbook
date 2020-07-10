@@ -5,4 +5,64 @@ body {
     justify-content: center;
     font-size: 14px;
     height: 100vh;
+    background-color: #E9EBEE;
+    font-size: 12px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    background-color: #4267B2;
+    top: 0;
+}
+
+.right-nav {
+    position: fixed;
+    right: 0;
+    top: 46px;
+    width: 13vw;
+    height: 100%;
+    border-left: 1px solid black;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    margin: .2rem;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: .3rem 0;
+}
+
+.user img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0 .3rem;
+}
+
+.user p {
+    flex-grow: 1;
+}
+
+.user span {
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #42B72A;
+    margin: 0 .5rem;
+}
+
+.user label {
+    font-size: 11px;
+    color: #90949c;
+    margin: 0 .5rem;
 }
