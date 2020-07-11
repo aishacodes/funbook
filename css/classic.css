@@ -12,6 +12,10 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
     height: 45px;
     position: fixed;
@@ -24,8 +28,34 @@ nav {
     position: fixed;
     top: 46px;
     margin-left: 13vw;
+    margin-top: 1rem;
     width: 13vw;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-nav img {
+    width: 20px;
+    height: 20px;
+}
+
+.ln-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.ln-links a {
+    display: flex;
+    align-items: center;
+}
+
+a.brand-nav img {
+    border-radius: 50%;
+}
+
+a.brand-nav {
+    margin-bottom: 1rem;
 }
 
 .right-nav {
@@ -47,6 +77,14 @@ nav {
     display: flex;
     align-items: center;
     padding: .3rem 0;
+}
+
+a.user {
+    color: #333333;
+}
+
+a.user:hover {
+    background-color: #DADDE1;
 }
 
 .user img {
@@ -80,13 +118,39 @@ nav {
 }
 
 .grpconv p {
-    font-size: 0.92rem;
+    font-size: 0.9rem;
     font-weight: 700;
     color: #4a4a4a;
 }
 
 .newgrp p {
-    color: #333333;
+    color: #4a4a4a;
     font-size: 1rem;
     font-weight: 400;
+}
+
+main {
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+.create-post {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.create-post p {
+    color: #4b4f56;
+    font-weight: 600;
+}
+
+.create-post img {
+    width: 40px;
+    height: 40px;
+}
+
+.notification {
+    width: 28vw;
 }
