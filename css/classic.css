@@ -29,7 +29,7 @@ nav {
     top: 46px;
     margin-left: 13vw;
     margin-top: 1rem;
-    width: 12vw;
+    width: 11vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -130,17 +130,23 @@ a.user:hover {
 }
 
 main {
-    width: 48vw;
+    width: 50vw;
     display: flex;
-    margin-left: 26vw;
+    margin-left: 25vw;
     margin-top: 46px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: .5rem 1rem 0 0;
 }
 
 .create-post {
     display: flex;
     flex-direction: column;
-    width: 30vw;
-    margin: .5rem 0;
+    width: 100%;
 }
 
 .create-post p {
@@ -165,8 +171,90 @@ main {
     align-items: center;
 }
 
+.stories {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.story {
+    width: 7rem;
+    margin-left: .5rem;
+    height: 10rem;
+}
+
+.crs {
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: .3rem;
+}
+
+img.crs-img {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.crs span {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    border-radius: 50%;
+    background-color: #F5F6F7;
+}
+
+.crs p {
+    position: absolute;
+    max-width: calc(100% - 1rem);
+    margin-left: .5rem;
+    color: white;
+    bottom: .5rem;
+    font-weight: bolder;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img.status-head {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 3px solid #1876F2;
+}
+
+img.card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    position: absolute;
+    max-width: calc(100% - 1rem);
+    margin-left: .5rem;
+    color: white;
+    bottom: .5rem;
+    font-weight: bolder;
+}
+
 .notification {
-    width: 28vw;
+    width: 18vw;
     display: flex;
     flex-direction: column;
     margin: .5rem 0;
