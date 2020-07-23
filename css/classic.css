@@ -26,6 +26,7 @@ nav {
     width: 100%;
     background-color: #4267B2;
     top: 0;
+    z-index: 4;
 }
 
 .content {
@@ -33,7 +34,7 @@ nav {
     display: flex;
     align-items: center;
     height: 100%;
-    width: 55vw;
+    width: 40vw;
 }
 
 .nav-flex {
@@ -66,9 +67,20 @@ nav {
     background-color: #F5F6F7;
 }
 
+.nav-notification img.pp {
+    border-radius: 50%;
+    margin: 0 .3rem;
+}
+
+.nav-notification span {
+    color: white;
+    padding: 0 .6rem;
+}
+
 .nav-notification img {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
+    margin: 0 .6rem;
 }
 
 .nav-notification:last-child {
@@ -245,6 +257,7 @@ main {
     display: flex;
     margin-left: 25vw;
     margin-top: 46px;
+    z-index: 2;
 }
 
 section {
