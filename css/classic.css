@@ -34,7 +34,7 @@ nav {
     display: flex;
     align-items: center;
     height: 100%;
-    width: 40vw;
+    width: 60vw;
 }
 
 .nav-flex {
@@ -83,9 +83,38 @@ nav {
     margin: 0 .6rem;
 }
 
-.nav-notification:last-child {
-    width: 20px;
-    height: 20px;
+.con {
+    position: relative;
+}
+
+p.con-count {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1.1rem;
+    height: 1.1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+}
+
+.mssg {
+    position: relative;
+}
+
+p.mssg-count {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1.1rem;
+    height: 1.1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
 }
 
 .nav-notification {
@@ -187,7 +216,7 @@ img.ex-img {
     top: 46px;
     width: 13vw;
     height: 100%;
-    border-left: 1px solid black;
+    border-left: 1px solid #65676b;
 }
 
 .users {
@@ -241,9 +270,10 @@ a.user:hover {
 }
 
 .grpconv p {
-    font-size: 0.9rem;
-    font-weight: 700;
-    color: #4a4a4a;
+    font-size: 1.133rem;
+    color: #65676b;
+    font-weight: 600;
+    padding: .5rem;
 }
 
 .newgrp p {
